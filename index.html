@@ -8,6 +8,7 @@
     <meta name="author" content="Sheyda Sultanova">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help animals | AT.</title>
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -58,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div id="banner" class="col-md-6 d-none d-md-block"></div>
+            <div id="banner" class="col-md-6 d-none d-md-block" data-aos="zoom-in" data-aos-duration="1000"></div>
         </div>
     </header>
 
@@ -69,12 +70,12 @@
             <div class="bg-gray"></div>
             <h2 class="section-title">Our task</h2>
             <div class="row align-items-center">
-                <div class="section-desc order-1 order-md-2 col-md-5">
+                <div class="section-desc order-1 order-md-2 col-md-5" data-aos="fade-left" data-aos-duration="2000">
                     <p class="d-none d-lg-block">We believe that helping animals in trouble is real. And we are doing everything to make it happen. We believe that every person's contribution counts. Helping animals is our common responsibility. Only together we are able to change the situation in the world. We believe that you need to do good with your own hands. Now. Without delay.</p>
                     <a href="#" class="green-text d-none d-lg-block">Learn more</a>
                     <p class="d-block d-lg-none">We believe that helping animals in trouble is real. And we are doing everything to make it happen. We believe that every person's contribution counts. <a href="#" class="green-text">Learn more</a></p>
                 </div>
-                <div class="section-image row order-2 order-md-1 col-md-7 align-items-end">
+                <div class="section-image row order-2 order-md-1 col-md-7 align-items-end" data-aos="fade-right" data-aos-duration="2000">
                     <img src="assets/images/image-parrot.jpg" class="col-6" alt="Parrot">
                     <img src="assets/images/image-elephant.jpg" class="col-6" alt="Elephant">
                 </div>
@@ -85,13 +86,13 @@
             <div class="bg-gray"></div>
             <h2 class="section-title">Your participation</h2>
             <div class="row">
-                <div class="section-desc order-1 order-md-2 col-md-5 offset-lg-1">
+                <div class="section-desc order-1 order-md-2 col-md-5 offset-lg-1" data-aos="fade-left" data-aos-duration="2000">
                     <p>You can help us insert a volunteer. After all, by this we make the world a better place</p>
                     <a href="#" class="btn btn-green font-14">Volunteering</a>
                     <p style="margin-top: 4vw;">You can help animals without leaving your home. By donating a small amount, we can give animals a new life</p>
                     <a href="#" class="btn btn-green font-14">Donate</a>
                 </div>
-                <div class="section-image row order-2 order-md-1 col-md-7 col-lg-6">
+                <div class="section-image row order-2 order-md-1 col-md-7 col-lg-6" data-aos="fade-right" data-aos-duration="2000">
                     <img src="assets/images/image-dog.jpg" class="col-12" alt="Dog">
                     <img src="assets/images/image-bird.jpg" class="col-6 mt-3" alt="Bird">
                     <img src="assets/images/image-girl.jpg" class="col-6 mt-3" alt="Volunteer">
@@ -102,7 +103,7 @@
         <section id="our-work">
             <div class="bg-gray"></div>
             <h2 class="section-title">Our work</h2>
-            <div class="row">
+            <div class="row" data-aos="fade-up" data-aos-duration="2000">
                 <div class="col-md-4 text-center">
                     <img src="assets/images/icons/care.png" width="70px">
                     <p class="p-title">Rescue</p>
@@ -126,9 +127,9 @@
             <div class="bg-gray right d-none d-md-block"></div>
             <h2 class="section-title">Gallery</h2>
             <div class="section-image row">
-                <img src="assets/images/image-veterinary.jpg" class="col-12 col-md-4" alt="Veterinary">
-                <img src="assets/images/image-cats.jpg" class="col-6 col-md-4 mt-3 mt-md-0" alt="Cats">
-                <img src="assets/images/image-seal.jpg" class="col-6 col-md-4 mt-3 mt-md-0" alt="Seal">
+                <img src="assets/images/image-veterinary.jpg" class="col-12 col-md-4" alt="Veterinary" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="assets/images/image-cats.jpg" class="col-6 col-md-4 mt-3 mt-md-0" alt="Cats" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="assets/images/image-seal.jpg" class="col-6 col-md-4 mt-3 mt-md-0" alt="Seal" data-aos="zoom-in" data-aos-duration="2000">
             </div>
             <a href="#" class="green-text">See more</a>
         </section>
@@ -139,7 +140,7 @@
                 <p class="green-text">Do you want to help the animals?</p>
                 <p class="font-14">Leave a request and we will definitely contact you</p>
             </div>
-            <form>
+            <form  data-aos="fade-up" data-aos-duration="2000">
                 <div class="form-row justify-content-center">
                     <div class="form-group col-lg-2">
                         <label for="name" class="sr-only">Name</label>
@@ -173,6 +174,10 @@
         <a href="#help" class="btn btn-green font-14">Help animals</a>
     </footer>
 
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
